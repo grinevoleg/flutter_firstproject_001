@@ -321,6 +321,17 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),),
               ],),
             ),
+            const SizedBox(height: 20,),
+            MaterialButton(
+              clipBehavior: Clip.antiAlias,
+              color: bluecol,
+              textColor: Colors.white,
+              onPressed: () => {},
+              child: Text("Заказать"),
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(20)
+              ),
+            ),
           ],
         ),
       ),
